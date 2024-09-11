@@ -1,0 +1,15 @@
+gex_transform: 'tpm'
+
+drop_GBM: True
+
+expression_file: "../data/raw/expression/cri/iatlas-ici-hgnc_tpm.tsv"
+expression_sep: "\t"
+phenotype_file: "../data/raw/expression/cri/iatlas-ici-sample_info.tsv"
+phenotype_sep: "\t"
+
+
+output_base: "../data/processed/expression/cri/"
+
+STRING_ALIAS_PATH: "../data/raw/networks/STRING/9606.protein.aliases.v12.0.txt"
+STRING_NET_PATH: "../data/raw/networks/STRING/9606.protein.links.v12.0.txt"
+VALID_STRING_SOURCES: ['BLAST_KEGG_NAME','BioMart_HUGO']

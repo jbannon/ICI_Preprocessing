@@ -1,0 +1,19 @@
+
+
+
+
+STRING_PARAMS:
+  STRING_ALIAS_PATH: "../data/raw/networks/STRING/9606.protein.aliases.v12.0.txt"
+  STRING_NET_PATH: "../data/raw/networks/STRING/9606.protein.links.v12.0.txt"
+  VALID_STRING_SOURCES: ['BLAST_KEGG_NAME','BioMart_HUGO']
+
+
+GDSC_PARAMS:
+  GDSC_EXPRESSION_PATH: "../data/raw/expression/GDSC/Cell_line_RMA_proc_basalExp.txt"
+  INVALID_TUMOR_TYPES: ['MESO','MM','NB','LGG','GBM','LCML','LAML', 'CLL','ALL','DLBC','MB']
+  RESPONSE_PATH: '../data/raw/expression/GDSC/Meta/TableS5C.xlsx'
+  RESPONSE_SHEET_NAME: 'Table-S5C binaryIC50s'
+  CCL_INFO_PATH: '../data/raw/expression/GDSC/Meta/TableS1E.xlsx'
+  CCL_INFO_SHEET: 'TableS1E-CellLines'
+  DRUG_NAMES: ['Erlotinib','Sunitinib','Imatinib','Paclitaxel', 'Crizotinib']
+

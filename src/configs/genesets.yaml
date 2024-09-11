@@ -1,0 +1,25 @@
+
+
+link_path: "../data/raw/networks/STRING/9606.protein.links.v12.0.txt"
+link_sep: " "
+alias_path: "../data/raw/networks/STRING/9606.protein.aliases.v12.0.txt"
+alias_sep: "\t"
+string_cutoff: 700 #from the source paper
+
+
+drugbank_path: "../data/raw/networks/PATHWAYCOMMONS/PathwayCommons11.drugbank.hgnc.txt"
+drugbank_sep: "\t"
+drug_chebi_path: "../data/raw//genesets/Drug_To_Chebi.txt"
+auslander_path: "../data/raw/genesets/auslander45.txt"
+
+
+valid_sources: ['BLAST_KEGG_NAME','BioMart_HUGO']
+
+cri_path: "../data/raw/expression/cri/iatlas-ici-hgnc_tpm.tsv"
+cri_sep: "\t"
+cri_rows: 2
+
+
+cosmic_path: "../data/raw/genesets/Census_allTue May  9 18_11_08 2023.csv"
+lincs_path: "../data/raw/genesets/command_output.txt"
+hallmark_path: "../data/raw/genesets/mdsig_hallmarks.txt"
